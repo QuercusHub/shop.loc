@@ -1,2 +1,6 @@
-/vendor
 /tmp
+/nbproject/private/
+.project
+.buildpath
+/.settings
+/nbproject
