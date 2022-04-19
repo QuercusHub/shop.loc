@@ -6,4 +6,4 @@ require_once dirname(__DIR__) . '/config/init.php';
 require_once CONFIG . '/routes.php';
 
 new \prj\App();
-
+#var_dump(\prj\Router::getRoute());
