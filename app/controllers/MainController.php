@@ -3,11 +3,14 @@
 namespace app\controllers;
 
 use prj\Controller;
+use RedBeanPHP\R;
 
 class MainController extends Controller
 {
     public function indexAction()
     {
-        $this->setMeta('Главная страница', 'description...', 'keywords...');
+        $names = $this->model->get_names();
+        $this->setMeta('Главная страница', 'Description...', 'keywords...');
+        $this->set(compact('names'));
     }
 }
