@@ -6,3 +6,5 @@
 /nbproject
 .vscode
 .settings
+/vendor
+!/vendor/prj/
