@@ -1,11 +1,11 @@
 {
-    "autoload": {
-        "psr-4": {
-            "prj\\": "vendor/prj",
-            "app\\": "app"
-        }
-    },
-    "require": {
-        "gabordemooij/redbean": "^v5.7.2"
+  "autoload": {
+    "psr-4": {
+      "wfm\\": "vendor/wfm",
+      "app\\": "app"
     }
+  },
+  "require": {
+    "gabordemooij/redbean": "^v5.7.1"
+  }
 }

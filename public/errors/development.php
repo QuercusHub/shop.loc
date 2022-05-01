@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @var $errno \prj\ErrorHandler
- * @var $errstr \prj\ErrorHandler
- * @var $errfile \prj\ErrorHandler
- * @var $errline \prj\ErrorHandler
+ * @var $errno \wfm\ErrorHandler
+ * @var $errstr \wfm\ErrorHandler
+ * @var $errfile \wfm\ErrorHandler
+ * @var $errline \wfm\ErrorHandler
  */
 
 ?>
